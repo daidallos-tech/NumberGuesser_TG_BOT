@@ -22,7 +22,7 @@ async def process_start_command(message: Message):
 # Handler /help - FAQ and rules 
 @dp.message(Command(commands='help'))
 async def process_help_command(message: Message):
-    await message.answer("The Rules:\n")
+    await message.answer("The Rules:\nI guess the number from 1 to 100!\nYou have 5 attempts to guess number I guessed\nIf you do it - you'll win.")
 
 # Handler /stat - Game statistic
 @dp.message(Command(commands='stat'))
