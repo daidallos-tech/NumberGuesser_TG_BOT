@@ -3,7 +3,7 @@ from aiogram import Bot, Dispatcher
 from commands import user_router
 from game import game_router
 
-BOT_TOKEN = "8899502289:AAEQOC_Rw-lIsRya0dfuMvAjDWKfTL9rmOE"
+BOT_TOKEN = "YOUR_BOT_TOKEN"
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher()
 
